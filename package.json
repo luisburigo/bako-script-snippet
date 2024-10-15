@@ -1,0 +1,19 @@
+{
+  "name": "bako-sdk-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "postinstall": "pnpm fuels build"
+  },
+  "dependencies": {
+    "bakosafe": "0.0.93-beta",
+    "fuels": "^0.96.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
